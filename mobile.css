@@ -1,0 +1,490 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Mobile Queries - PORTRAIT*/
+
+/*iPhone 5/6SE*/
+@media (min-width: 320px) {
+	
+.JR_Harrison {
+background: url(PNG_SCREEN.png);
+background-repeat: no-repeat; 
+background-position: 48%;   
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+z-index: 2;
+}
+	
+.PortfolioMobile {
+background: url(Portfolio_Sect.png);
+background-repeat: no-repeat; 
+background-position: 53%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;			
+}
+	
+/*.Aspirations {
+background: url(Aspirations_Header.png);
+background-repeat: no-repeat; 
+background-position: 15%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:250%;
+width:100%;
+}	*/
+
+.Footer {
+background: url(FooterImage.png);
+background-repeat: no-repeat; 
+background-position: 13%;
+/*background-attachment: fixed;*/     
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}	
+}
+
+/*iPhone 6/7/8(S)*/
+/*Google Pixel XL/2/XL*/
+/*iPhone 10*/
+/*Samsung S7/8/9/Edge*/
+/*Samsung Note 5*/
+@media (max-width:480px) and (min-width:360px) {
+	
+.JR_Harrison {
+background: url(PNG_SCREEN.png);
+background-repeat: no-repeat; 
+background-position: 48%;
+/*background-attachment: fixed;*/      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}
+	
+.BlizzBox {
+height: 100vh;
+overflow: hidden;	
+}
+
+.Blizzard1 {
+-webkit-filter: brightness(100%);
+background: url(Blizzard.jpg);
+height:100%;
+width:100%;
+background-position: center;
+background-repeat: no-repeat; 
+	
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+/*background-attachment: fixed;
+Really wish I could make this work.
+Fucks up because of zoom*/ 
+} 
+
+.Blizzard1:hover {
+cursor: pointer;
+-webkit-filter: brightness(50%);
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+}
+	
+/*.Aspirations {
+background: url(Aspirations_Header.png);
+background-repeat: no-repeat; 
+background-position: 15%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:250%;
+width:100%;
+}	*/
+
+.Footer {
+background: url(FooterImage.png);
+background-repeat: no-repeat; 
+background-position: 15%;
+/*background-attachment: fixed;*/      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}
+}
+
+/*iPad/Pro*/
+/*Google Nexus 10*/
+@media (max-width:1024px) and (min-width:768px)  {
+
+.JR_Harrison {
+background: url(Background_Header2.png);
+background-repeat: no-repeat; 
+background-position: 75%;
+/*background-attachment: fixed;*/
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}	
+	
+.Print {
+-webkit-filter: brightness(100%);
+background: url(3DPrint_Phot.png);
+height:50%;
+width:100%;
+background-position: 51%;
+background-repeat: no-repeat; 
+	
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+/*background-attachment: fixed;
+Really wish I could make this work.
+Fucks up because of zoom*/ 
+} 
+	
+/*.Aspirations {
+background: url(Aspirations_Header.png);
+background-repeat: no-repeat; 
+background-position: 15%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:250%;
+width:100%;
+}	*/	
+
+.Footer {
+background: url(FooterImage.png);
+background-repeat: no-repeat; 
+background-position: 15%;
+/*background-attachment: fixed;*/    
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}
+}
+
+/*Mobile Queries - LANDSCAPE*/
+
+/*iPhone 6/7/8(S)*/
+/*Google Pixel XL/2/XL*/
+/*iPhone 10*/
+/*Samsung S7/8/9/Edge*/
+/*Samsung Note 5*/
+@media (max-width:740px) and (min-width:667px) {
+
+.JR_Harrison {
+background: url(Background_Header2.png);
+background-repeat: no-repeat; 
+background-position: 75%;
+/*background-attachment: fixed;*/
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}	
+	
+.Print {
+-webkit-filter: brightness(100%);
+background: url(3DPrint_Phot.png);
+height:50%;
+width:100%;
+background-position: 51%;
+background-repeat: no-repeat; 
+	
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+/*background-attachment: fixed;
+Really wish I could make this work.
+Fucks up because of zoom*/ 
+} 
+	
+/*.Aspirations {
+background: url(Aspirations_Header.png);
+background-repeat: no-repeat; 
+background-position: 15%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:250%;
+width:100%;
+}	*/	
+
+.Footer {
+background: url(FooterImage.png);
+background-repeat: no-repeat; 
+background-position: 15%;
+/*background-attachment: fixed;*/    
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}
+
+}
+
+/*iPhone 5*/
+@media (max-width:570px) and (min-width:560px) {
+
+.JR_Harrison {
+background: url(Background_Header2.png);
+background-repeat: no-repeat; 
+background-position: 75%;
+/*background-attachment: fixed;*/
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}	
+	
+.Print {
+-webkit-filter: brightness(100%);
+background: url(3DPrint_Phot.png);
+height:50%;
+width:100%;
+background-position: 51%;
+background-repeat: no-repeat; 
+	
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+/*background-attachment: fixed;
+Really wish I could make this work.
+Fucks up because of zoom*/ 
+} 
+	
+/*.Aspirations {
+background: url(Aspirations_Header.png);
+background-repeat: no-repeat; 
+background-position: 15%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:250%;
+width:100%;
+}		*/
+
+.Footer {
+background: url(FooterImage.png);
+background-repeat: no-repeat; 
+background-position: 15%;
+/*background-attachment: fixed;*/    
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}
+
+}
+
+/*iPad/Pro*/
+/*Google Nexus 10*/
+@media (max-width:1366px) and (min-width:1280px) {
+
+.JR_Harrison {
+background: url(Background_Header2.png);
+background-repeat: no-repeat; 
+background-position: 75%;
+/*background-attachment: fixed;*/
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}	
+	
+.Print {
+-webkit-filter: brightness(100%);
+background: url(3DPrint_Phot.png);
+height:50%;
+width:100%;
+background-position: 51%;
+background-repeat: no-repeat; 
+	
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+/*background-attachment: fixed;
+Really wish I could make this work.
+Fucks up because of zoom*/ 
+} 
+	
+/*.Aspirations {
+background: url(Aspirations_Header.png);
+background-repeat: no-repeat; 
+background-position: 15%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:250%;
+width:100%;
+}	*/	
+
+.Footer {
+background-image: url(FooterImage.png);
+background-repeat: no-repeat; 
+background-position: 15%;   
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+/*DUMMY Query*/
+@media (min-width: 1367px) {
+
+.JR_Harrison {
+background: url(Background_Header2.png);
+background-repeat: no-repeat; 
+background-position: 75%;
+background-attachment: fixed;
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}		
+
+.Footer {
+background: url(FooterImage.png);
+background-repeat: no-repeat; 
+background-position: 15%;
+background-attachment: fixed;    
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;
+}
+}
+
+/*Video Switch Query!*/
+@media (max-width:1366px) and (min-width:320px) {
+
+#PortfolioVid {
+visibility: hidden;
+clear: both;
+float: left;
+margin: 10px auto 5px 20px;
+width: 28%;
+display: none;
+}
+
+.PortfolioMobile {
+background: url(Portfolio_Sect.png);
+background-repeat: no-repeat; 
+background-position: 53%;      
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width:100%;			
+}
+}
+
+/*Video Switch Query!*/
+@media (max-width:2000px) and (min-width:1367px) {
+
+#PortfolioVid {
+width: 100%;
+height: 100%;
+webkit-object-fit: cover;
+-moz-object-fit: cover;
+-o-object-fit: cover;
+object-fit: cover;
+object-position: center center;
+display: block;
+}
+
+.PortfolioMobile {
+visibility: hidden;
+clear: both;
+float: left;
+margin: 10px auto 5px 20px;
+width: 28%;
+display: none;		
+}
+}S

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.FutureGoals {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.BlizzBox {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Blizzard1 {
+  background: url(Blizzard.jpg);
+  background-repeat: no-repeat;
+  background-position: 75%;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.Blizzard1:hover {
+box-shadow:inset 0 0 0 150vw rgba(0,0,0,0.7);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+}
+
+.Box {
+height: 100vh;
+width: auto;
+position: relative;	
+}
+
+.VideoBox {
+  position: relative;
+  height: 68%;
+  width: 67.3%;
+  left: 17.6%;
+  top: 8%;
+  transition: .2s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;	
+}
+
+.Blizzard1:hover .VideoBox {
+  position: relative;
+  height: 68%;
+  width: 67.3%;
+  left: 17.6%;
+  top: 7%;
+}
+
+.Blizz_Pop_Final {
+  position: relative;
+  width: 0%;
+  height: 0%;
+  top: 1%;
+  left: 53%;
+	
+  transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;	
+}
+
+.Blizzard1:hover .Blizz_Pop_Final {
+  position: relative;
+  width: 90%;
+  height: auto;
+  top: -18.5%;
+  left: 6.4%;
+}

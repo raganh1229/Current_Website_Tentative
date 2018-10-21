@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+/*NAV-BAR SECTION*/
+nav {
+	position: fixed;
+	left: -16em;
+	top: 0;
+	bottom: 0;
+	background-color: #0e0e0e;
+	border-right: 50px solid #b7b7b7;
+	box-shadow: 4px 0 5px rgba(0,0,0,0.25);
+	z-index: 13;
+}
+
+nav:after {
+	position: absolute;
+	content: ' ';
+	width: 0;
+	height: 0;
+	right: -70px;
+	top: 50%;
+	border-width: 15px 10px;
+	border-style: solid;
+	border-color: transparent transparent transparent #b7b7b7;
+}
+
+nav ul {
+	width: 14em;
+	list-style-type: none;
+	margin-top: 50px;
+	margin-left: 45px;
+	padding: 1em;
+}
+
+.Logo {
+margin-left: 43px;
+margin-top: 50px;
+}
+
+nav, nav * {
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+
+nav:hover {
+	left: 0;
+}
+
+a {
+font-family: "Myriad Pro";
+font-size: 20px;
+line-height: 75px;
+color: #b7b7b7;
+text-decoration: none;
+
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+}
+
+a:hover {
+  color: #4D4D4D;
+} 
+

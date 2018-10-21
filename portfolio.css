@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Portfolio {
+background: url(Port_Image.JPG);
+background-repeat: no-repeat; 
+background-position: center;
+background-attachment: fixed;       
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: auto;
+height: 100vh;
+overflow: hidden;
+}
